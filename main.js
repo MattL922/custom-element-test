@@ -1,5 +1,5 @@
 class Hello extends HTMLElement {
-	constructor() {
+    constructor() {
         super();
         const shadow = this.attachShadow({mode: 'open'});
         const name = this.getAttribute("name");
